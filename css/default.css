@@ -1,0 +1,19 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+.token.comment{
+    color: black;
+}
+.token.property{
+    color: black;
+}
+.token.selector{
+    color: black;
+}
+#code{
+    
+    height: 100vh; /*边框始终是占满整个浏览器的高度的，不会超出浏览器的高度*/
+    overflow: auto;
+}
+#paper > .content{
+    padding:16px;
+}
